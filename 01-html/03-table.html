@@ -17,7 +17,43 @@
   <body>
     <main>
       <table>
-        <!-- Add your code here -->
+        <!--Table header--thead-->
+        <thead>
+          <!--We add row to the header--tr-->
+          <tr>
+            <!--need to use-- th-- for header row, it has the header format(bolder) and semantic-->
+            <th>First NAME</th>
+            <th>Last NAME</th>
+            <th>Email</th>
+          </tr>
+        </thead>
+        <!--Table Body--tbody-->
+        <tbody>
+          <tr>
+            <!--need to use--td-for body rows-->
+            <td>Sponebob</td>
+            <td>Squarepants</td>
+            <td>Spongebob@spongebob.world</td>
+          </tr>
+          <tr>
+            <td>Patrick</td>
+            <td>Star</td>
+            <td>patrick@spsngebob.world</td>
+          </tr>
+          <tr>
+            <td>Sandy</td>
+            <td>Cheeks</td>
+            <td>sandy@spongebob.world</td>
+          </tr>
+          <tr>
+            <!--Add colspan and rowspan to the cell-->
+            <td colspan="2" rowspan="2">Mr Krabs</td>
+            <td>mrk@spongebob.world</td>
+            <tr>
+            <td>mrkarbs@spongebob.world</td>
+            </tr>
+          </tr>
+        </tbody>
       </table>
     </main>
   </body>

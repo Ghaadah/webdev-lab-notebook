@@ -9,7 +9,59 @@
   <body>
     <main>
       <form action="/submit">
-        <!-- Add your code here -->
+        <!-- Add Form-->
+        <h1>Form</h1>
+        <div>
+          <!--each label needs-for- to connect to the input -id- -->
+          <label for="name">Name</label>
+          <!-- forms needs inputs, we may add placeholer-->
+          <input type="text" name="name" id="name" placeholder="Full Name" />
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Email Address"
+          />
+        </div>
+        <br />
+          <!-- Radio Button--> 
+          <!--fieldset and legend for the group Radios options label, don't need the div anymore-->
+          <!--input type= radio--name should be the same, id is different to connect with label-->
+          <!--label is needed for each input element-->     
+          <fieldset>
+          <legend>Favorite Character:</legend>
+
+          <input type="radio" name="character" id="spongebob">
+          <label for="spongebob">Spongebob</label>
+          <br>
+          <input type="radio" name="character" id="sandy"> 
+          <label for="sandy">Sandy</label>
+          <br>
+          <input type="radio" name="character" id="patrick">
+          <label for="patrick">Patrick</label>
+        </fieldset>
+        <br>
+        <!--Checkbox input-->
+        <!--fieldset and legend for the group checkbox options-->
+        <!--input type checkbox, name the same for all, id is unique for each label-->
+        <!--label for each input elements-->
+        <fieldset>
+          <legend>Are you a fan of the show?</legend>
+          <input type="checkbox" name="episodes" id="option1">
+          <label for="option1">Yes,I have watched all episodes!</label>
+          <br>
+          <input type="checkbox" name="episodes" id="option2">
+          <label for="option2">Yes,it's got the best memes</label>
+          </fieldset>
+        </fieldset>
+        <br>
+        <div>
+          <input type="submit" value="Submit" />
+          <input type="reset" value="Reset" />
+        </div>
       </form>
     </main>
   </body>
