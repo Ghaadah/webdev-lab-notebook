@@ -17,3 +17,9 @@
 ### Accessibility
 
 Enter your reflections on this section here.
+- I watched the videos in the weekend, and when I did the exercises, I didn't need to watch again.
+- it was helpful.The form excrcise was very helpful.
+- No, the videos were very clear and easy to follow.
+- I don't think so!
+
+

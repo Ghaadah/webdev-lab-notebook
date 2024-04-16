@@ -9,20 +9,35 @@
   <body>
     <h1>01 - Form</h1>
     <form action="/submit">
-      <span>Name</span>
-      <input type="text" />
+      <!--use label with input:text and connect label For to input id -->
+      <!--<span>Name</span>-->
+      <label for="name">Name</label>
+      <input type="text" id="name" />
+
       <br /><br />
+      <!--any thing inside the label will belong to it.Not prefered mothed-->
       <label>
         Email
-        <input type="text" />
+        <input type="email" />
       </label>
       <br /><br />
-      <span>Favorite Character</span>
-      <div><input type="radio" id="spongebob" />Spongebob</div>
-      <div><input type="radio" id="patrick" />Patrick</div>
-      <div><input type="radio" id="sandy" />Sandy</div>
+      <fieldset>
+        <legend>Character</legend>
+        <!--using same name to group the characters and enable one select option only -->
+        <input type="radio" name="character" id="spongebob" />
+        <label for="spongebob">Spongebob</label>
+        <br />
+        <input type="radio" name="character" id="patrick" />
+        <label for="patrick">Patrick</label>
+        <br />
+        <input type="radio" name="character" id="sandy" />
+        <label for="sandy">Sandy</label>
+        <br />
+      </fieldset>
       <br />
-      <button>Submit</button>
+      <!--using input:submit is better than botton-->
+      <!--<button>Submit</button>-->
+      <input type="submit" value="Submit" />
     </form>
   </body>
 </html>
