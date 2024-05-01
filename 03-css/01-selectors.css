@@ -8,14 +8,46 @@
   --violet: #9400d3;
 }
 
-/* Use attribute selectors for the first part of the exercise */
+/* Existence, Use attribute selectors for the first part of the exercise */
 
+/*Specificity is higher than seciton li, we turn it off!
 li[class] {
   color: var(--red);
+}*/
+
+/* Equality[=], id="cat",use the id attribute for the li */
+li[id="cat"] {
+  color: var(--teal);
+}
+
+/* Prefix[^=], class START with ' ' */
+li[class^="p"] {
+  color: var(--green);
+}
+
+/*Substring[*=], class CONTAIN ' ', will be included*/
+li[class*="do"] {
+  color: var(--royalblue);
+}
+
+/* move the dog to the end to override the roualbule*/
+/* Suffix, class END with' ' */
+li[class$="g"] {
+  color: var(--violet);
 }
 
 /* Use descendant, child, and sibling selectors for the second part */
-
+/*specifity is 0,0,2, it will work if there are no higher specificity*/
 section li {
   color: var(--green);
+}
+
+/* ~ adjacent siblings selector, every element in the same level of the tree and below it only */
+.first ~ li {
+  color: var(--violet);
+}
+
+/*+ next sibiling only and below it,going to be the direct next sibling */
+.second + li {
+  color: var(--royalblue);
 }

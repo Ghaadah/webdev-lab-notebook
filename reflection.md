@@ -7,6 +7,8 @@
 - Was there somthing that you wish had been explained better?
 - Were there other exercises that might have helped you learn this week's topic a little better?
 
+Enter your reflections on this section here.
+
 ### HTML
 
 - I started the exerices by myself and I needed to watch the videos to complete them.
@@ -16,10 +18,25 @@
 
 ### Accessibility
 
-Enter your reflections on this section here.
 - I watched the videos in the weekend, and when I did the exercises, I didn't need to watch again.
 - it was helpful.The form excrcise was very helpful.
 - No, the videos were very clear and easy to follow.
 - I don't think so!
 
+### CSS
 
+- I watched the videos to do the exercises.
+- They were very helpful. Mostly, I found the media
+  exercise very helpful.
+- the videos are very clear and easy to follow.
+- I learned a lot this week.
+
+### flexbox
+
+### css-gird
+
+### bootstrap
+
+### javascript
+
+### jquery

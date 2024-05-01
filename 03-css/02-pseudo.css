@@ -2,3 +2,14 @@
   width: 600px;
   margin: 40px auto;
 }
+/* :: pseudo element,part of the element, always true for the element*/
+p::first-letter {
+  font-size: 3em;
+}
+
+/* : pseudo class, it is a state with action , not always true*/
+p:hover {
+  background-color: lightskyblue;
+}
+
+/* em = 16px */

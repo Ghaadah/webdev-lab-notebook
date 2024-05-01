@@ -9,7 +9,8 @@ body {
 .header,
 .section,
 .aside {
-  box-sizing: content-box;
+  /* box-sizing: content-box; this will add the padding and border as well*/
+  box-sizing: border-box;
   padding: 10px;
   border: 4px solid var(--black);
 }
@@ -17,7 +18,7 @@ body {
 .header {
   background-color: var(--blue);
 }
-
+/* inline-block - to keep nest element in same line if fits */
 .section {
   display: inline-block;
   width: 75%;

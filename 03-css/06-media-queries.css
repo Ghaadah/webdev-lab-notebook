@@ -1,3 +1,54 @@
+nav {
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  background-color: var(--black);
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: var(--white);
+  display: block;
+  width: 100%;
+  /* margin:1em; */
+  padding: 1em;
+}
+nav ul li a:hover {
+  background-color: var(--gray1);
+}
+.main {
+  /* the fixed position is overwrite the normal flow, move the main is needed to be visible in the page */
+  margin-top: 100px;
+  padding: 0.5em;
+}
+
+body {
+  background-color: var(--purple);
+  color: var(--white);
+}
+@media (max-width: 414px) {
+  nav ul li {
+    width: 100%;
+  }
+  .main {
+    margin-top: 220px;
+  }
+}
+@media (min-width: 415px) {
+  body {
+    background-color: var(--orange);
+    color: var(--white);
+  }
+}
 @media (min-width: 1024px) {
   body {
     background: var(--green);
