@@ -1,17 +1,50 @@
 .grid-container {
+  /* create grid */
+  display: grid;
+  /* the gird invisible now-no gap */
+  /* gap=margin */
+  gap: 10px;
   background-color: rgb(190, 190, 231);
 }
 
 /* Grid Container 1 */
+/* set up column-fr is fraction of screen like %*/
+.grid-container-1 {
+  grid-template-columns: 1fr 3fr 3fr;
+}
 
 /* Grid Container 2 */
-
-/* use height: 400px; on the container */
-
+/* use height: 400px; on the container-important if we need different heights for cells*/
+.grid-container-2 {
+  height: 400px;
+  /* we may use % instead of fr */
+  grid-template-columns: 20% 40% 20% 20%;
+  grid-template-rows: 1fr 4fr;
+  /* height=400,400/5fr =80,1f= 80, 4fr=320 */
+}
 /* Grid Container 3 */
 
 /* use height: 400px; on the container */
+.grid-container-3 {
+  height: 400;
+  /* different row heights */
+  grid-template-columns: 1fr 3fr 3fr;
+  grid-template-rows: 1fr 2fr 2fr;
+}
+.grid-container-3 .item8 {
+  grid-column: span 2;
+}
 
 /* Grid Container 4 */
-
 /* use height: 600px; on the container */
+.grid-container-4 {
+  height: 600px;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: repeat(5, 1fr);
+}
+.grid-container-4 .item1 {
+  grid-row: span 2;
+}
+.grid-container-4 .item6 {
+  grid-column: span 2;
+}

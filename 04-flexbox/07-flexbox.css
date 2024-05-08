@@ -1,21 +1,67 @@
 .flex-container {
+  display: flex;
+  /* defualt - no need to write them */
+  /* flex-direction: row;
+  flex-wrap:nowrap; */
   background-color: rgb(190, 190, 231);
 }
 
 /* Flex Container 1 */
+.flex-container-1 {
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* align according to row- use justify content- main axis */
+  justify-content: center;
+}
 
 /* Flex Container 2 */
+.flex-container-2 {
+  /* flex-direction: row-reverse;
+  flex-wrap: wrap; */
+  /* we may use flex flow for both above */
+  flex-flow: row-reverse wrap;
+}
 
 /* Flex Container 3 */
-
 /* use height: 400px; on the container */
-
+.flex-container-3 {
+  /* with column direction we need to set height for the container, otherwise it will flex to fit the content */
+  height: 400px;
+  flex-flow: column-reverse wrap;
+  /* align according to column - use align items- cross axis */
+  align-items: flex-end;
+}
 /* Flex Container 4 */
-
+.flex-container-4 {
+  flex-flow: row wrap-reverse;
+  justify-content: space-evenly;
+}
 /* Flex Container 5 */
-
+.flex-container-5 {
+  align-items: center;
+  text-align: center;
+}
+.flex-container-5 .item1,
+.flex-container-5 .item3,
+.flex-container-5 .item6 {
+  height: 300px;
+}
+.flex-container-5 .item2,
+.flex-container-5 .item8 {
+  height: 400px;
+}
+.flex-container-5 .item4,
+.flex-container-5 .item5,
+.flex-container-5 .item7 {
+  height: 200px;
+}
 /* Flex Container 6 */
-
+.flex-container-6 {
+  /* we need height with column */
+  height: 300px;
+  flex-flow: column wrap;
+}
+/* we specify width to each item in the container */
 .flex-container-6 .flex-item {
   width: 400px;
 }

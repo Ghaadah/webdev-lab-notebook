@@ -33,7 +33,17 @@ Enter your reflections on this section here.
 
 ### flexbox
 
+- I watched the videos multiple times.
+- They were very helpful.
+- I wished if the example had include different html elements.
+- I don't know.
+
 ### css-gird
+
+- This topic was very interesting.I watched the videos multiple times.
+- They were very helpful. The grid area example was very helpful
+- The topic had been explained very well.
+- I don't know.
 
 ### bootstrap
 
