@@ -46,6 +46,10 @@ Enter your reflections on this section here.
 - I don't know.
 
 ### bootstrap
+- I watched the videos mutliple times.
+- They were very helpful.particularly the modal exrcises was very helpful.
+- The topic was explained very well.
+- I don't think so! the bootstrap doc very helpful to search for any type of formating.
 
 ### javascript
 
