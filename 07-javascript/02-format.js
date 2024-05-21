@@ -4,7 +4,28 @@ const formatItems = (input) => {
   // for reference, see the MDN Number page:
   // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number
 
-  return input;
+  //use loop to get each item
+  //loop -1
+  // for(let i=0;i<input.length;i++){
+  //   console.log(input[i]);
+  // }
+
+  // //loop -2 in loop - not recommanded
+  // for(let i in input){
+  //   console.log(input[i]);
+  // }
+  // create a blank array
+  let result = [];
+
+  //loop -3 of loop- item is actual value in the array not the index
+  for (let item of input) {
+    // console.log(item.toFixed(3));
+    result.push(item.toFixed(3));
+  }
+  // we searched the MDN doc for number functions- we found toFixed(#) function for # of decimals
+  //to convert to string we used the join() method- found in MDN web page- transform array to string
+
+  return result.join(", ");
 };
 
 console.log(formatItems([1, 4, 17, 26, 41]));
