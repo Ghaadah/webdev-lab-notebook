@@ -60,3 +60,10 @@ Enter your reflections on this section here.
 - I don't think so!
 
 ### jquery
+
+- I watched the videos mutliple times.
+- They were very helpful.particularly the jQuery Exercise 02
+- The topic was explained very well.
+- I don't think so!
+
+### Thank you
